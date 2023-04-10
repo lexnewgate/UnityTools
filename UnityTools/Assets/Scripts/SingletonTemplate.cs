@@ -7,10 +7,10 @@ namespace Lex.UnityTools
     /// </summary>
     public sealed class SingletonTemplate
     {
-        private static readonly Lazy<SingletonTemplate> lazy =
+        private static readonly Lazy<SingletonTemplate> s_lazy =
             new Lazy<SingletonTemplate>(() => new SingletonTemplate());
 
-        public static SingletonTemplate Instance { get { return lazy.Value; } }
+        public static SingletonTemplate Instance { get { return s_lazy.Value; } }
 
         private SingletonTemplate()
         {

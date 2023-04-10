@@ -43,6 +43,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\SingletonTemplate.cs" />
      <Compile Include="Assets\Scripts\MonoSingleton.cs" />
+     <Compile Include="Assets\Scripts\EventSystem\EventManager.cs" />
+     <Compile Include="Assets\Scripts\EventSystem\GameEvent.cs" />
      <Folder Include="Assets" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\mergetool.ja.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\images.zh-Hans.txt" />
@@ -147,6 +149,7 @@
      <Folder Include="Library\PackageCache\com.unity.modules.physics2d@1.0.0" />
      <None Include="Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2\package.json" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\cm-help.en.txt" />
+     <Folder Include="Assets\Scripts\EventSystem" />
      <None Include="Library\PackageCache\com.unity.modules.particlesystem@1.0.0\package.json" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\binmergetool.ko.txt" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\localization\mergetool.en.txt" />
